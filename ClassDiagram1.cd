@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="hospital1.classes.Doctor">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAEAAAAAAIAAAAGAAACAAAAAAAAAAA=</HashCode>
+      <FileName>classes\Doctor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="hospital1.classes.Employe">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAABAAAAAAAABAABAAAAAAQAAAAAABAAAA=</HashCode>
+      <FileName>classes\Employe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="hospital1.classes.Manger">
+    <Position X="5.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAIAAAAAEAAAgAAAAAAAEAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>classes\Manger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="hospital1.classes.nurse">
+    <Position X="2.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAEAAAAABIAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>classes\nurse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="hospital1.classes.parson">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAACAAQQCgAEAAgAABAAAAAAAAAABAGAEAQhg=</HashCode>
+      <FileName>classes\parson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="hospital1.classes.patient">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAIAAAAEEAAAAAAAAAAAEAACAAgAAAAAAAIA=</HashCode>
+      <FileName>classes\patient .cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="hospital1.connect.Operitions">
+    <Position X="13.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>connect\Operitions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="hospital1.connect.OpertionDoctor" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAABAACAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>connect\OpertionDoctor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="hospital1.connect.OpertionManger" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQIAQAAAAABAAAAAAEAAAAAA=</HashCode>
+      <FileName>connect\OpertionManger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="hospital1.connect.OpertioNnurse" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAKAAAAAAAAAAAAAAAgAAEAAAAAAAAA=</HashCode>
+      <FileName>connect\OpertioNnurse.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="hospital1.connect.OPertionPatient" BaseTypeListCollapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAQAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>connect\OPertionPatient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="hospital1.connect.IDoctorOperition">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAABAACAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>connect\IDoctorOperition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="hospital1.connect.INurse">
+    <Position X="15.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAKAAAAAAAAAAAAAAAgAAEAAAAAAAAA=</HashCode>
+      <FileName>connect\INurse.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="hospital1.connect.IOpertionManger">
+    <Position X="17.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQIAAAAAAABAAAAAAEAAAAAA=</HashCode>
+      <FileName>connect\IOpertionManger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="hospital1.connect.IPatientOperiition">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAQAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>connect\IPatientOperiition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
